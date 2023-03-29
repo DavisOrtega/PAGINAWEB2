@@ -1,0 +1,45 @@
+.news-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 100px;
+    margin: 10px 0;
+
+
+
+
+    .news-cards {
+        font-size: 20px;
+        margin: 10px 0;
+
+    }
+
+    img {
+        width: 50%;
+        height: 120px;
+
+    }
+
+    h3 {
+
+        color: #fff;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+
+    &:hover {
+        text-decoration: none;
+
+    }
+
+    p {
+        text-decoration: none;
+    }
+
+}
+
+.links img {
+
+    margin-left: 340px;
+
+
+}
